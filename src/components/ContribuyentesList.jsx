@@ -38,8 +38,10 @@ const ContribuyentesList = ({ onContribuyenteClick }) => {
             <th>Segundo Nombre</th>
             <th>Primer Apellido</th>
             <th>Segundo Apellido</th>
+            <th>Tipo Contribuyente</th>
             <th>Razón social</th>
             <th>Identificación</th>
+            <th>estatus</th>
           </tr>
         </thead>
         <tbody>
@@ -50,8 +52,10 @@ const ContribuyentesList = ({ onContribuyenteClick }) => {
               <td>{contribuyente.persona.sNom}</td>
               <td>{contribuyente.persona.pApe}</td>
               <td>{contribuyente.persona.sApe}</td>
+              <td>{contribuyente.tipoContribuyente.tipoContribuyente}</td>
               <td>{contribuyente.persona.razonSocial}</td>
               <td>{contribuyente.persona.documentoIdent}</td>
+              <td>{contribuyente.status}</td>
             </tr>
           ))}
         </tbody>
