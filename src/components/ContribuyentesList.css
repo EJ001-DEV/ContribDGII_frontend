@@ -1,0 +1,15 @@
+.contribuyentes-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .contribuyentes-table th,
+  .contribuyentes-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .contribuyentes-table th {
+    background-color: #f2f2f2;
+  }
